@@ -86,3 +86,19 @@ img{
   padding: 3px;
   border: 2px solid #F0EAE0;
 }
+.timeline{
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+}
+
+.space-images {
+  padding-bottom: 10px;
+}
