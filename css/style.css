@@ -40,6 +40,8 @@ h3{
   line-height: 24px;
   padding: 15px;
   padding-top: 0;
+  padding-left: 24px;
+  padding right: 24px;
 }
 
 .nav a {
@@ -184,7 +186,7 @@ img{
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #999999;
+  background-color: #69813c;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
