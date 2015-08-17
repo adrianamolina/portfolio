@@ -219,3 +219,17 @@ img{
 .timeline-body > p + p {
   margin-top: 5px;
 }
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 768px) {
+  .timeline:before {
+    left: 90%;
+    margin-left: -1.5px;
+  }
+  .timeline > li > .timeline-badge {
+    width: 20px;
+    height: 20px;
+    left: 94%;
+  }
+}
