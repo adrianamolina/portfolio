@@ -91,6 +91,19 @@ img{
   padding-bottom: 10px;
 }
 
+.line-index {
+  position: relative;
+}
+.line-index:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #B6CA94;
+  left: 50%;
+}
+
 /********** TIMELINE RESUME **********/
 
 .timeline {
@@ -231,5 +244,11 @@ img{
     width: 20px;
     height: 20px;
     left: 94%;
+  }
+  .timeline > li > .timeline-panel {
+    width: 83%;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: left;
   }
 }
