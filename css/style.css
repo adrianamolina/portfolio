@@ -40,6 +40,15 @@ h3{
   line-height: 24px;
   padding: 15px;
   padding-top: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.nav-text-alignleft{
+  text-align: left;
+}
+.nav-text-alignright{
+  text-align: right;
 }
 
 .nav a {
@@ -236,12 +245,6 @@ img{
 /********** MEDIA QUERIES **********/
 
 @media screen and (max-width: 768px) {
-  .nav-text-alignleft{
-    text-align: left;
-  }
-  .nav-text-alignright{
-    text-align: right;
-  }
   .timeline:before {
     left: 90%;
     margin-left: -1.5px;
