@@ -253,4 +253,16 @@ img{
   .timeline > li.timeline-inverted > .timeline-panel {
     float: left;
   }
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 15px;
+    border-right-width: 0;
+    right: -15px;
+    left: auto;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 14px;
+    border-right-width: 0;
+    right: -14px;
+    left: auto;
+  }
 }
