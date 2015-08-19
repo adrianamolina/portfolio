@@ -272,3 +272,9 @@ img{
     left: auto;
   }
 }
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .col-s-6 {
+    width: 50%;
+  }
+}
