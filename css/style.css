@@ -290,5 +290,10 @@ img{
   right: 24%;
   z-index: -1;
   }
+}
 
+@media screen and (min-width: 768px){
+  .line-index:before{
+    content: none;
+  }
 }
