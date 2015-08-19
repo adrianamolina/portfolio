@@ -245,7 +245,7 @@ img{
 
 @media screen and (max-width: 768px) {
   .timeline:before {
-    left: 90%;
+    left: 93%;
     margin-left: -1.5px;
   }
   .timeline > li > .timeline-badge {
