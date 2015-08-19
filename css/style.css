@@ -277,4 +277,18 @@ img{
   .col-s-6 {
     width: 50%;
   }
+  .line-index:before {
+  left: 24%;
+  }
+  .line-index:after {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #B6CA94;
+  right: 24%;
+  z-index: -1;
+  }
+
 }
