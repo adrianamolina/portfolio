@@ -120,7 +120,14 @@ img{
 
 /********** ABOUT ME CIRCLE **********/
 
-
+.space-around {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.space-bigger {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
 
 /********** TIMELINE RESUME **********/
 
